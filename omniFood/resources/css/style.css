@@ -431,8 +431,8 @@ a:hover, a:active {
 /* ----------------------------------- */
 
 .section-testimonials {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.8)), to(rgba(0,0,0,0.8))), url(../img/back-customers.jpg);
-  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/back-customers.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.8)), to(rgba(0,0,0,0.8))), url(../img/back-customer.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/back-customer.jpg);
   background-size: cover;
   color: white;
   background-attachment: fixed;
@@ -534,7 +534,7 @@ cite img {
 /* ----------------------------------- */
 
 .contact-form {
-  width: 60%;
+  width: 90%;
   /* center the element */
   margin: 0 auto;
 }
@@ -558,7 +558,46 @@ input[type=checkbox] {
 
 *:focus { outline: none;}
 
+.map-box {
+  width: 100%;
+  height: 630px;
+  position: relative;
+}
 
+.map {
+  width: 100%;
+  height: 630px;
+  position: relative;  
+  z-index: 0;
+}
+
+.form-box {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.8);
+  z-index: 10;;
+  height: 630px;
+  padding-top: 40px;
+}
+
+
+
+.form-messages {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  color: #333
+} 
+
+.success {
+  background-color: rgba(38,191,68,0.8);
+}
+
+.error { background-color: rgba(209 ,46 , 46, 0.8) }
 
 /* ----------------------------------- */
 /*FOOTER  */
@@ -658,3 +697,4 @@ footer p {
 .js--wp-1.animated, .js--wp-2.animated, .js--wp-3.animated {
   opacity: 1;
 }
+

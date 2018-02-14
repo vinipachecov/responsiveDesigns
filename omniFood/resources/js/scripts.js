@@ -84,7 +84,26 @@ $(document).ready(function() {
     } else {
       icon.addClass('ion-navicon-round');
       icon.removeClass('ion-close-round');
+    }    
+  });
+
+  // Maps
+
+  var map = new GMaps({
+    div: '.map',
+    lat: -29.6934145,
+    lng: -53.8022808,
+    zoom: 13
+  });
+
+  map.addMarker({
+    lat: -29.6934145,
+    lng: -53.8572808,
+    title: 'Santa Maria',
+    infoWindow: {
+      content: '<p> Santa Maria HQ</p>'
     }
-    
-  })
+  });
+
+  
 });
