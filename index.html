@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css"  href="resources/css/style.css">
   <link rel="stylesheet" type="text/css"  href="resources/css/queries.css">
   
-  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
   <title>OmniFood</title>
 
   <link rel="apple-touch-icon" sizes="57x57" href="/resources/favicons/apple-touch-icon-57x57.png">
@@ -181,7 +181,7 @@
     </div>
     <div class="row js--wp-3">
       <div class="col span-1-of-4 box">
-        <img src="/omniFood/resources/img/lisbon-3.jpg" alt="Lisbon">   
+        <img src="./resources/img/lisbon-3.jpg" alt="Lisbon">   
         <h3>Lisbon</h3>     
         <div class="city-feature">
             <i class="ion-ios-person icon-small"></i>
@@ -199,7 +199,7 @@
       </div>
 
       <div class="col span-1-of-4 box">
-          <img src="/omniFood/resources/img/san-francisco.jpg" alt="San Francisco">   
+          <img src="./resources/img/san-francisco.jpg" alt="San Francisco">   
           <h3>San Francisco</h3>     
           <div class="city-feature">
               <i class="ion-ios-person icon-small"></i>
@@ -217,7 +217,7 @@
         </div>
 
         <div class="col span-1-of-4 box">
-            <img src="/omniFood/resources/img/berlin.jpg" alt="Berlin">   
+            <img src="./resources/img/berlin.jpg" alt="Berlin">   
             <h3>Berlin</h3>     
             <div class="city-feature">
                 <i class="ion-ios-person icon-small"></i>
@@ -235,7 +235,7 @@
           </div>
 
           <div class="col span-1-of-4 box">
-              <img src="/omniFood/resources/img/london.jpg" alt="London">   
+              <img src="./resources/img/london.jpg" alt="London">   
               <h3>London</h3>     
               <div class="city-feature">
                   <i class="ion-ios-person icon-small"></i>
@@ -359,15 +359,7 @@
         <div class="row">
             <form method="post" action="./mailer.php" class="contact-form">
 
-                <div class="row">
-                  <?php
-                  if($_GET['sucess'] == 1) {
-                    echo "<div class=\"form-messages success\">Thank you! Your message has been sent.</div>";
-                  }
-                  if($_GET['sucess'] == -1) {
-                    echo "<div class=\"form-messages error\">Oops.. Something went wrong :(</div>";                  }  
-                ?>
-              </div>
+                
                 
                 <div class="row">
                   
@@ -456,7 +448,7 @@
 <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
 <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="./vendors/js/jquery.waypoints.min.js"></script>
 <script src="./vendors/js/gmaps.js"></script>
 <script src="./resources/js/scripts.js"></script>
