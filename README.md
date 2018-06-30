@@ -3,6 +3,8 @@ This is my code for the Build Responsive Real World Websites with HTML5 and CSS3
 
 The objective with this repository is to keep simple examples of how to use CSS3 and HTML tags basics.
 
+The static site can be seen working here: https://vinipachecov.github.io/responsiveDesigns/ (maps not working because of API keys, works fine on local machine).
+
 ## About the website
 
 It has some basic sections about a fictional delivery company. It is only for my self development purpose, not for production website. If anyone wants to point what to improve feel free to comment or open an Issue. The sections are:
